@@ -1,0 +1,21 @@
+    <form action="/blogs/create">
+      <div class="form-group">
+        <label for="exampleInputEmail1">제목</label>
+        <input name = "title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="제목을 입력하세요">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">내용</label>
+        <textarea name = "content" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1">태그</label>
+        <input name = "tag" type="text" class="form-control" id="exampleInputPassword1" placeholder="#으로 구분하여 입력하세요 ex)#냥이 #도라이">
+      </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1">이미지</label>
+        <input name = "url" type="text" class="form-control" id="exampleInputPassword1" placeholder="url 형태로 입력하세요">
+        <small id="emailHelp" class="form-text text-muted">ex) http://image.jpg</small>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>

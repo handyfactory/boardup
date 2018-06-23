@@ -1,0 +1,9 @@
+<h1>게시글 수정하기</h1>
+<form action="/blog_update/<%= @blog.id %>">
+    제목 : <input type="text" name="title" value="<%= @blog.title %>"><br>
+    내용 : <input type="text" name="content" value="<%= @blog.content%>"><br>
+    태그 : <input type="text" name="content" value="<%= @blog.tag%>"><br>
+    이미지 : <input type="text" name="content" value="<%= @blog.image_url%>"><br>
+    
+    <input type="submit">
+</form>
